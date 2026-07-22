@@ -198,7 +198,9 @@ release: publicar versión final
 
 Guardá evidencias en `screenshots/` y agregalas al README cuando existan: PDF, Colab, chatbot, GitHub, commits, OCI Running, Security List, SSH, `docker compose ps`, `curl -I`, IP pública, respuesta correcta, respuesta sin información y vista móvil.
 
-URL pública: **pendiente de despliegue en OCI**. No se debe declarar funcional hasta comprobar acceso desde `http://IP_PUBLICA:7860`.
+URL pública: **[http://163.176.204.250:7860](http://163.176.204.250:7860)**.
+
+Desplegado en OCI Compute con Ubuntu 24.04, Docker Compose y una instancia Ampere A1 ARM64. La URL usa HTTP para la demostración académica; para un entorno productivo se recomienda agregar un dominio y HTTPS mediante un proxy inverso.
 
 ## Seguridad, límites y mejoras
 
