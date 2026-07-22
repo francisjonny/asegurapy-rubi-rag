@@ -1,0 +1,12 @@
+services:
+  asegurapy-rubi:
+    build:
+      context: .
+    container_name: asegurapy-rubi
+    env_file:
+      - .env
+    ports:
+      - "7860:7860"
+    volumes:
+      - ./data/documento.pdf:/app/data/documento.pdf:ro
+    restart: unless-stopped
